@@ -53,11 +53,11 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
 // let sumAndMultiply=[a,b,c];
 let result=sum(a,b);
-console.log(result[0]);
+
 let result2=sum(result[0],c);
-console.log(result2[0]);
+
 let re=multiply(a,b);
-console.log(re[0]);
+
 let re2=multiply(re[0],c)
 return [result2[0],re,`${a}and ${b} and ${c} sum to ${result2[0]}`,`The product of ${a} and ${b} and ${c} is ${re[0]}`]
 }
